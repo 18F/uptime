@@ -49,7 +49,6 @@ Process:
 
 ## The next few tasks
 
-- Record server errors and 404s as downtime. Right now, it's only recording a failure if the `curl` command fails.
 - Check for accessibility / 508 compliance
 - Multi-site monitoring
 - Settings file for monitored domains, cadence, etc.
