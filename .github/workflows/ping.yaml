@@ -1,9 +1,10 @@
 name: Check server status
 
-on:
-  schedule:
-    - cron: '*/15 * * * *'  # Run every 15 minutes
-  workflow_dispatch:
+# Turning off cron job for now
+# on:
+#   schedule:
+#     - cron: '*/15 * * * *'  # Run every 15 minutes
+#   workflow_dispatch:
 
 
 jobs:
